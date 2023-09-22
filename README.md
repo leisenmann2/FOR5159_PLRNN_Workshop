@@ -18,7 +18,8 @@ Software tools:
 
 - https://github.com/DurstewitzLab/dendPLRNN
 - https://github.com/DurstewitzLab/GTF-shPLRNN
-
+  
+Thanks to @Florian Hess for providing the Notebook version of the training algorithm
 
 Background reading:
 
