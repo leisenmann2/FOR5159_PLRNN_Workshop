@@ -21,6 +21,24 @@ Software tools:
   
 Thanks to @Florian Hess for providing the Notebook version of the training algorithm
 
+# Install conda and an environment to run the Notebook and the code locally
+## Setup
+Install your anaconda distribution of choice, e.g. miniconda via the bash
+script ```miniconda.sh```:
+```
+$ ./miniconda.sh
+```
+Create the local environment `BPTT_TF`:
+```
+$ conda env create -f environment.yml
+```
+Activate the environment and install the package
+```
+$ conda activate BPTT_TF
+(BPTT_TF) $ pip install -e .
+```
+
+
 Background reading:
 
 [1] Daniel Durstewitz, Georgia Koppe, and Max Ingo Thurm. Reconstructing computational dynamics from neural measurements with recurrent neural networks, 2022. https://www.biorxiv.org/content/10.1101/2022.10.31.514408v
