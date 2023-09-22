@@ -1,4 +1,4 @@
-# CNS-2023
+# Staff Retreat
 A Guide to Reconstructing Dynamical Systems from Neural Measurements Using Recurrent Neural Networks
 
 Dynamical system reconstruction (DSR) is a powerful framework for analyzing neural data and understanding the brain’s computational processes [1]. DSR is a deep learning methodology, mostly based on recurrent neural networks (RNNs), where we infer a generative model from neural and/ or behavioral recordings that behaves in every dynamically relevant aspect like the system underlying the data observed. Thus, after training on neural data, an RNN should be able to generate new data with the same temporal and geometrical signatures and attractor states as the underlying neural substrate (Fig. 1).
@@ -19,7 +19,6 @@ Software tools:
 - https://github.com/DurstewitzLab/dendPLRNN
 - https://github.com/DurstewitzLab/GTF-shPLRNN
 
-A Jupyter notebook with code examples will be made available here before the workshop begins.
 
 Background reading:
 
